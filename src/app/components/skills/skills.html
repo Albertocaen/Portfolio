@@ -1,0 +1,10 @@
+<section class="skills" id="skills">
+  <div class="container">
+    <p class="section-label">{{ ts.t().skills.title }}</p>
+    <div class="skills-cloud">
+      @for (skill of ts.t().skills.items; track skill) {
+        <span class="skill-pill">{{ skill }}</span>
+      }
+    </div>
+  </div>
+</section>
